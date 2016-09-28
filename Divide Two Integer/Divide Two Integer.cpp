@@ -14,12 +14,10 @@ public:
                  temp <<= 1;
                  mul <<= 1;
              }
-
              de-=temp;
              res+=mul;
              temp=ds;
          }
-
          return flag==1?-res:res;
     }
 };
